@@ -1,0 +1,53 @@
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500 Index"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR to USD"
+    },
+    {
+      "description": "KOSPI",
+      "proName": "KRX:KOSPI"
+    },
+    {
+      "description": "NASDAQ",
+      "proName": "NASDAQ:IXIC"
+    },
+    {
+      "description": "Korea 3 years go",
+      "proName": "TVC:KR03Y"
+    },
+    {
+      "description": "Korea 10 years go",
+      "proName": "TVC:KR10Y"
+    },
+    {
+      "description": "USD/KRW",
+      "proName": "AMEX:USD/FX_IDC:KRWUSD"
+    },
+    {
+      "description": "US 2 years go",
+      "proName": "TVC:US02Y"
+    },
+    {
+      "description": "US 10 years go",
+      "proName": "TVC:US10Y"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "colorTheme": "light",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
